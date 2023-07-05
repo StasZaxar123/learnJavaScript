@@ -20,7 +20,7 @@ alert('Hello');
 It is многострочный comments
 */
 let message;
-message = 'Hello'; // сохранить строку 'Hello' в переменной с именем message
+message = 'Hello123'; // сохранить строку 'Hello' в переменной с именем message
 
 let message1;
 message1 = 'Hello!';
