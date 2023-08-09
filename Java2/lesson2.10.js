@@ -83,3 +83,23 @@ let value1 = prompt('Какое "официальное" название JavaSc
 // Task3
 let number = prompt('число', 0);
 
+if (number > 1) {
+	alert('положительное');
+}
+else if (number < -1) {
+	alert('отрицательное');
+}
+else if (number == 0) {
+	alert('ноль')
+}
+
+//Task4
+let result0 = условие ? значение1 : значение2;
+let result1 = (a + b < 4) ? 'Мало' : 'Много';
+
+//Task5
+let mess = (login == 'Сотрудник') ? 'Привет':
+(login == 'Директор') ? 'Здравствуйте':
+(login == '') ? 'Нет логина':
+'';
+
