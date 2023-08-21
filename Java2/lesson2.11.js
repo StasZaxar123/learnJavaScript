@@ -91,9 +91,26 @@ let age
 if (age >= 14 && age <= 90);
 
 //Task7
-let age2
-if (age2 );
+if (-1 || 0) alert('first');// Результат -1 || 0 = -1, в логическом контексте true
+if (-1 && 0) alert('second');//-1 && 0 = 0,  в логическом контексте false
+if (null || -1 && 1) alert('third');// вычисления: null || -1 && 1  ->  null || 1  ->  1
 
+//Task8
 
+let userName = prompt("Кто там?", '');
+if (userName === 'Админ') {
+	let pass = prompt('Пароль?', '');
 
+	if (pass === 'Я главный') {
+		alert('Здравствуйте!');
+	} else if (pass === '' || pass === null) {
+		alert('Отменено');
+	} else {
+		alert('Неверный пароль');
+	}
 
+} else if (userName === '' || userName === null) {
+	alert('Отменено');
+} else {
+	alert("Я вас не знаю");
+}
